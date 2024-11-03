@@ -1,38 +1,38 @@
 const questions = [
   {
-    question:"Which is the largest animal in the world?",
+    question:"Which planet is known as the Red Planet?",
     answers: [
-      {text: "shark",correct: false},
-      {text: "Blue whale",correct: true},
-      {text: "Elephant",correct: false},
-      {text: "Giraffe",correct: false},
+      {text: "Venus",correct: false},
+      {text: "Mars",correct: true},
+      {text: "Jupiter",correct: false},
+      {text: "Saturn",correct: false},
     ]
   },
   {
-    question:"Which is the smallest continent in the world?",
+    question:"Who wrote the play Romeo and Juliet?",
     answers: [
-      {text: "asia",correct: false},
-      {text: "Australia",correct: true},
-      {text: "Arctic",correct: false},
-      {text: "Africa",correct: false},
+      {text: "Charles Dickens",correct: false},
+      {text: "Mark Twain",correct: false},
+      {text: " William Shakespeare",correct: true},
+      {text: " J.K. Rowling",correct: false},
     ]
   },
   {
-    question:"Which is the largest desert in the world?",
+    question:"Which country is known as the Land of the Rising Sun?",
     answers: [
-      {text: "Kalahari",correct: false},
-      {text: "Gobi",correct: false},
-      {text: "Sahara",correct: false},
-      {text: "Antartica",correct: true},
+      {text: "China",correct: false},
+      {text: "South Korea",correct: false},
+      {text: "Thailand",correct: false},
+      {text: "Japan",correct: true},
     ]
   },
   {
-    question:"Which is the most used language in the world?",
+    question:"Who was the first person to walk on the moon?",
     answers: [
-      {text: "English",correct: true},
-      {text: "Spanish",correct: false},
-      {text: "French",correct: false},
-      {text: "Japanese",correct: false},
+      {text: "Neil Armstrong",correct: true},
+      {text: "Buzz Aldrin",correct: false},
+      {text: "Yuri Gagarin",correct: false},
+      {text: "Michael Collins",correct: false},
     ]
   }
 ];

@@ -6,7 +6,12 @@
 }
 
 body{
-  background: #001e4d;
+  background:url("./images/bg_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 .app{
@@ -78,4 +83,57 @@ body{
 
 .incorrect{
   background: #ff9393;
+}
+
+@media (max-width: 780px) {
+  .app {
+    width: 95%;
+    padding: 20px;
+    margin-top: 120px;
+  }
+
+  .app h1 {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+
+  .quiz h2 {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  #next-btn {
+    width: 130px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  .app {
+    margin-top: 133px;
+    width: 80%;
+    padding: 15px;
+  }
+
+  .app h1 {
+    font-size: 20px;
+  }
+
+  .quiz h2 {
+    font-size: 15px;
+  }
+
+  .btn {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  #next-btn {
+    width: 120px;
+    padding: 6px;
+  }
 }
