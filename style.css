@@ -90,6 +90,7 @@ body{
     width: 95%;
     padding: 20px;
     margin-top: 120px;
+    min-height: 260px;
   }
 
   .app h1 {
